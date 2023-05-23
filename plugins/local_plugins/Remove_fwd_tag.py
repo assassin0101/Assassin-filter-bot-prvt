@@ -10,9 +10,9 @@ from info import BOT_TOKEN, API_ID, API_HASH, CHANNELS
 
 Bot = Client(
      os.environ.get("SESSION_NAME", "No-Forward-Messages"),
-     bot_token = os.environ["BOT_TOKEN"],
-     api_id = int(os.environ["API_ID"]),
-     api_hash = os.environ["API_HASH"]
+     bot_token = os.environ["6074770274:AAHPcXJHO_pbkrYPp785mOfpzGnF9QXMx3c"],
+     api_id = int(os.environ["9529563"]),
+     api_hash = os.environ["a6c1e1c8daecd5d1f7da03d42032d09a"]
 )
 
 @Client.on_message(filters.forwarded & filters.group & filters.channel & filters.incoming)

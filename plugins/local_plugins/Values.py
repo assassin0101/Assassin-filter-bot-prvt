@@ -2,9 +2,9 @@ from pyrogram import Client, filters, enums
 import heroku3
 from info import ADMINS, HRK_API, HRK_APP_NAME
 
-heroku_conn = heroku3.from_key(HRK_API)
+#heroku_conn = heroku3.from_key(HRK_API)
 #apps = heroku_conn.apps()[HRK_APP_NAME]                             
-app = heroku_conn.app(HRK_APP_NAME)
+#app = heroku_conn.app(HRK_APP_NAME)
 
 @Client.on_message(filters.command("setvar") & filters.user(ADMINS))
 async def setvarrrz(bot, message):

@@ -4,6 +4,8 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, User
 import os
 from pyrogram import Client, filters
+from dotenv import load_dotenv
+load_dotenv()
 
 from info import *
 

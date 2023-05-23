@@ -5,7 +5,7 @@ from pyrogram.types import Message, User
 import os
 from pyrogram import Client, filters
 
-from info import BOT_TOKEN, API_ID, API_HASH, CHANNELS
+from info import *
 
 
 Bot = Client(

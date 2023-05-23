@@ -27,7 +27,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001770373374').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5151412494').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-login_channel = environ.get('LOGIN_CHANNEL')
+login_channel = environ.get('LOGIN_CHANNEL', '-1001770373374')
 auth_grp = environ.get('AUTH_GROUP', '-1001569505396')
 LOGIN_CHANNEL = int(login_channel) if login_channel and id_pattern.search(login_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -53,13 +53,13 @@ auth_users = [int(user) if id_pattern.search(user) else user for user in environ
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_grp = environ.get('AUTH_GROUP', '-1001569505396')
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001569505396')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001852740638')
 reqst_channel = environ.get('REQST_CHANNEL_ID')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 
 # Custom Chats
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001800266350'))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', ''))
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', '')
 
 #VALUES
@@ -81,7 +81,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Unknown")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # FSUB
-auth_channel = environ.get('AUTH_CHANNEL')
+auth_channel = environ.get('AUTH_CHANNEL', '-1001770373374')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 # Set to False inside the bracket if you don't want to use Request Channel else set it to Channel ID
 REQ_CHANNEL = environ.get("REQ_CHANNEL", False)
@@ -95,7 +95,7 @@ CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id f
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # Others
-VERIFY = bool(environ.get('VERIFY', False))
+VERIFY = bool(environ.get('VERIFY', True))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'GreyMatterslinks.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '20eb8456008878c0349fc79d40fb4d1634cccf12')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
@@ -103,14 +103,14 @@ NO_RESULTS_MSG = bool(environ.get('NO_RESULTS_MSG', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "7")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "False")), False)
-S_GROUP = environ.get('S_GROUP',"https://t.me/OTT_Movies_Series_Group")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/OTT_Movies_Series")
+S_GROUP = environ.get('S_GROUP',"https://t.me/GreyMatter_Support")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/GreyMatter_Bots")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/OTT_Movies_Series_Group')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/OTT_Movies_Series')
 MSG_ALRT = environ.get('MSG_ALRT', 'Piracy Is Crime')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001981762780'))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'OTT_Movies_Series_Group')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'GreyMatter_Support')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)

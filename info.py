@@ -26,8 +26,8 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5151412494').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-login_channel = environ.get('LOGIN_CHANNEL', '-1001682019198')
-auth_grp = environ.get('AUTH_GROUP', '-1001569505396')
+login_channel = environ.get('LOGIN_CHANNEL', '0')
+auth_grp = environ.get('AUTH_GROUP', '0')
 LOGIN_CHANNEL = int(login_channel) if login_channel and id_pattern.search(login_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
@@ -53,13 +53,13 @@ AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001852740638')
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001341911125')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '0')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 
 # Custom Chats
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001800266350'))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+KEhDEGC42rowYzVl')
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '0'))
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', '')
 
 #VALUES
 HRK_APP_NAME = environ.get('HRK_APP_NAME', '')
@@ -80,13 +80,13 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Unknown")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # FSUB
-auth_channel = environ.get('AUTH_CHANNEL', '-1001682019198')
+auth_channel = environ.get('AUTH_CHANNEL', '0')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 # Set to False inside the bracket if you don't want to use Request Channel else set it to Channel ID
 REQ_CHANNEL = environ.get("REQ_CHANNEL", False)
 REQ_CHANNEL = int(REQ_CHANNEL) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL) else False
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
-group_sub = environ.get('GROUP_SUB', '-1001569505396')
+group_sub = environ.get('GROUP_SUB', '0')
 GROUP_SUB = int(group_sub) if auth_channel and id_pattern.search(group_sub) else None
 
 #Auto approve 
@@ -122,7 +122,7 @@ LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False")
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '0')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "False")), True)

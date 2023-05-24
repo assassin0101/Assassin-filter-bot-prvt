@@ -26,8 +26,8 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5151412494').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-login_channel = environ.get('LOGIN_CHANNEL')
-auth_grp = environ.get('AUTH_GROUP')
+login_channel = environ.get('LOGIN_CHANNEL', '-1001682019198')
+auth_grp = environ.get('AUTH_GROUP', '-1001569505396')
 LOGIN_CHANNEL = int(login_channel) if login_channel and id_pattern.search(login_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
@@ -53,13 +53,13 @@ AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001852740638')
-reqst_channel = environ.get('REQST_CHANNEL_ID')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001341911125')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 
 # Custom Chats
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001800266350'))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', '')
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+KEhDEGC42rowYzVl')
 
 #VALUES
 HRK_APP_NAME = environ.get('HRK_APP_NAME', '')

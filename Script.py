@@ -3,7 +3,7 @@ class script(object):
 <b>ʜᴇʏ, {}
 ɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ + ᴍᴀɴᴜᴀʟꜰɪʟᴛᴇʀ + ꜰɪʟᴇsᴛᴏʀᴇ ʙᴏᴛ.
 ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs ᴏʀ sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ !!
-🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/GreyMatter_Bots'>𝙶𝚛𝚎𝚢𝙼𝚊𝚝𝚝𝚎𝚛'𝚜 𝚃𝚎𝚌𝚑</a></b>
+🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/as_3523'>𝙰𝚜𝚜𝚊𝚜𝚜𝚒𝙽</a></b>
 """
     
     HELP_TXT = """
@@ -15,7 +15,7 @@ class script(object):
 
 ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʜᴇʟᴩ ꜰᴏʀ ᴍy ᴄᴏᴍᴍᴀɴᴅꜱ.
 
-💞 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/GreyMatter_Bots'>𝙶𝚛𝚎𝚢𝙼𝚊𝚝𝚝𝚎𝚛'𝚜 𝚃𝚎𝚌𝚑</a></b>
+💞 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/as_3523'>𝙰𝚜𝚜𝚊𝚜𝚜𝚒𝙽</a></b>
 """
 
     STARTER_TXT = """
@@ -28,9 +28,9 @@ class script(object):
 
     ABOUT_TXT = """
 <b>
-‣ ᴍʏ ɴᴀᴍᴇ : <a href='https://t.me/OTT_Movies_Series_bot'>ɪᴍᴅʙ​​​ ʙᴏᴛ</a>
-‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/GreyMatter_Owner'>GreyMatter's​</a>
-‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/GreyMatter_Owner'>𝙶𝚛𝚎𝚢𝙼𝚊𝚝𝚝𝚎𝚛'𝚜</a>
+‣ ᴍʏ ɴᴀᴍᴇ : <a href='https://t.me/ott_cinemabot'>ɪᴍᴅʙ 𝙼𝚘𝚟𝚒𝚎𝚜 ʙᴏᴛ</a>
+‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/as_3523'>𝙰𝚜𝚜𝚊𝚜𝚜𝚒𝙽​</a>
+‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/as_3523'>𝙰𝚜𝚜𝚊𝚜𝚜𝚒𝙽</a>
 ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
 ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a>
 ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a>
@@ -41,7 +41,7 @@ class script(object):
     SOURCE_TXT = """
 <b>NOTE:
 ⚠️ᴛʜɪꜱ ʙᴏᴛ ɪꜱ Not ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ
-◆ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/GreyMatter_Owner'>𝙶𝚛𝚎𝚢𝙼𝚊𝚝𝚝𝚎𝚛'𝚜​</a></b>
+◆ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/as_3523'>𝙰𝚜𝚜𝚊𝚜𝚜𝚒𝙽​</a></b>
 """
     
     MANUELFILTER_TXT = """
@@ -202,9 +202,9 @@ Nᴀᴍᴇ - {}
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : 𝙶𝚛𝚎𝚢𝙼𝚊𝚝𝚝𝚎𝚛'𝚜
-• ᴜꜱᴇʀɴᴀᴍᴇ : @𝙶𝚛𝚎𝚢𝙼𝚊𝚝𝚝𝚎𝚛_𝙾𝚠𝚗𝚎𝚛
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/GreyMatter_Owner'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>
+• ꜰᴜʟʟ ɴᴀᴍᴇ : 𝙰𝚜𝚜𝚊𝚜𝚜𝚒𝙽
+• ᴜꜱᴇʀɴᴀᴍᴇ : @as_3523
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/As_3523'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>
 """
     
     NORSLTS = """
@@ -217,12 +217,12 @@ Nᴀᴍᴇ - {}
 
     CAPTION = """
 <b>══════════════════
-📁 𝑭𝒊𝒍𝒆 𝑵𝒂𝒎𝒆 : [@OTT_Movies_Series]{file_name}\n═══════════════════\n
+📁 𝑭𝒊𝒍𝒆 𝑵𝒂𝒎𝒆 : [@Movies_wallah_1]{file_name}\n═══════════════════\n
 🔘 𝑭𝒊𝒍𝒆 𝑺𝒊𝒛𝒆 : {file_size}
 
 ╔══════════════════╗
-       <a href=https://t.me/OTT_Movies_Series_Group>ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ</a>
-       <a href=https://t.me/OTT_Movies_Series>ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ​​</a>
+       <a href=https://t.me/movies_wallah1>ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ</a>
+       <a href=https://t.me/movies_Wallah1>ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ​​</a>
 ╚══════════════════╝</b>
 """
 
@@ -307,7 +307,7 @@ Reported To Admin
 
 ᴇxᴀᴍᴘʟᴇ 👇
 
- /shortlink greymatterslinks.in 20eb8456008878c0349fc79d40fb4d1634cccf12
+ /shortlink greymatterslinks.in 2594af94ada913ef7faf874f6352b821d052c5f9
 
 ɴᴏᴡ ʏᴏᴜʀ ᴡᴏʀᴋ ɪꜱ ᴏᴠᴇʀ
 
@@ -497,9 +497,9 @@ coммand and υѕeѕ
     OWNER_TXT = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : 𝙶𝚛𝚎𝚢𝙼𝚊𝚝𝚝𝚎𝚛'𝚜
-• ᴜꜱᴇʀɴᴀᴍᴇ : @𝙶𝚛𝚎𝚢𝙼𝚊𝚝𝚝𝚎𝚛_𝙾𝚠𝚗𝚎𝚛
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='https://t.me/GreyMatter_Owner'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>
+• ꜰᴜʟʟ ɴᴀᴍᴇ : 𝙰𝚜𝚜𝚊𝚜𝚜𝚒𝙽
+• ᴜꜱᴇʀɴᴀᴍᴇ : @𝙰𝚜_3523
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='https://t.me/𝚊𝚜_3523'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>
 """
     
     CLOSE_TXT = """

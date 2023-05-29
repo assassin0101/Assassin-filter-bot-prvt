@@ -25,8 +25,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
-                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/GreyMatter_Bots'),
-                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/GreyMatter_Support')
+                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/movies_wallah_1'),
+                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/mw_discussion')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         kd = await message.reply_photo(
@@ -48,7 +48,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('〆 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 〆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('ʙᴏᴛs', url="https://t.me/GreyMatter_Bots"),
+            InlineKeyboardButton('ʙᴏᴛs', url="https://t.me/+NAVbN-SG7w41MzA1"),
             InlineKeyboardButton('♚ ᴏᴡɴᴇʀ ♚', callback_data='owner_info')
             ],[      
             InlineKeyboardButton('〄 ʜᴇʟᴘ 〄', callback_data='help2'),
@@ -137,10 +137,10 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton("🎁𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩​🎁", url=f'http://t.me/OTT_Movies_Series_bot?startgroup=true')
+                          InlineKeyboardButton("🎁𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩​🎁", url=f'http://t.me/Ott_cinemabot?startgroup=true')
                         ],[
-                          InlineKeyboardButton("🌿 ɢʀᴏᴜᴘ", url='https://t.me/OTT_Movies_Series_Group'),
-                          InlineKeyboardButton("🍂 ᴄʜᴀɴɴᴇʟ", url='https://t.me/OTT_Movies_Series')
+                          InlineKeyboardButton("🌿 ɢʀᴏᴜᴘ", url='https://t.me/movies_wallah1'),
+                          InlineKeyboardButton("🍂 ᴄʜᴀɴɴᴇʟ", url='https://t.me/movies_wallah_1')
                          ]
                         ]
                     )
@@ -156,10 +156,10 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton("🎁𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩​🎁", url=f'http://t.me/OTT_Movies_Series_bot?startgroup=true')
+                          InlineKeyboardButton("🎁𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩​🎁", url=f'http://t.me/Ott_cinemabot?startgroup=true')
                         ],[
-                          InlineKeyboardButton("🌿 ɢʀᴏᴜᴘ", url='https://t.me/OTT_Movies_Series_Group'),
-                          InlineKeyboardButton("🍂 ᴄʜᴀɴɴᴇʟ", url='https://t.me/OTT_Movies_Series')
+                          InlineKeyboardButton("🌿 ɢʀᴏᴜᴘ", url='https://t.me/movies_wallah1'),
+                          InlineKeyboardButton("🍂 ᴄʜᴀɴɴᴇʟ", url='https://t.me/movies_wallah_1')
                          ]
                         ]
                     )
@@ -257,7 +257,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://t.me/OTT_Movies_Series")
+                      InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://t.me/movies_wallah_1")
                      ]
                     ]
                 )
@@ -307,7 +307,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://t.me/OTT_Movies_Series")
+              InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://t.me/movies_wallah_1")
              ]
             ]
         )
@@ -792,10 +792,10 @@ async def deletemultiplefiles(bot, message):
 @Client.on_message(filters.command("shortlink"))
 async def shortlink(bot, message):
     btn = [[
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url="https://t.me/GreyMatter_Bots"),
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/GreyMatter_Support")
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url="https://t.me/movies_wallah_1",
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/mw_discussion")
         ],[
-        InlineKeyboardButton(text="ᴀᴅᴅ  ʏᴏᴜʀ  ꜱʜᴏʀᴛɴᴇʀ", url="http://t.me/OTT_Movies_Series_bot?startgroup=true")
+        InlineKeyboardButton(text="ᴀᴅᴅ  ʏᴏᴜʀ  ꜱʜᴏʀᴛɴᴇʀ", url="http://t.me/Ott_cinemabot?startgroup=true")
     ]]
     chat_type = message.chat.type
     if chat_type == enums.ChatType.PRIVATE:
@@ -815,7 +815,7 @@ async def shortlink(bot, message):
     try:
         command, shortlink_url, api = data.split(" ")
     except:
-        return await message.reply_text("<b>Command Incomplete :(\n\nGive me a shortlink and api along with the command !\n\nFormat: <code>/shortlink greymatterslinks.in 20eb8456008878c0349fc79d40fb4d1634cccf12</code></b>")
+        return await message.reply_text("<b>Command Incomplete :(\n\nGive me a shortlink and api along with the command !\n\nFormat: <code>/shortlink greymatterslinks.in 2594af94ada913ef7faf874f6352b821d052c5f9</code></b>")
     reply = await message.reply_text("<b>Please Wait...</b>")
     await save_group_settings(grpid, 'shortlink', shortlink_url)
     await save_group_settings(grpid, 'shortlink_api', api)

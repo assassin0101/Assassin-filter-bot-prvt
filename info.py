@@ -94,7 +94,7 @@ CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id f
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # Others
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'GreyMatterslinks.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '2594af94ada913ef7faf874f6352b821d052c5f9')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))

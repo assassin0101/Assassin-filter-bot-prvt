@@ -792,7 +792,7 @@ async def deletemultiplefiles(bot, message):
 @Client.on_message(filters.command("shortlink"))
 async def shortlink(bot, message):
     btn = [[
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url="https://t.me/movies_wallah_1",
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url="https://t.me/movies_wallah_1"),
         InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/mw_discussion")
         ],[
         InlineKeyboardButton(text="ᴀᴅᴅ  ʏᴏᴜʀ  ꜱʜᴏʀᴛɴᴇʀ", url="http://t.me/Ott_cinemabot?startgroup=true")

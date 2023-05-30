@@ -39,10 +39,10 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 BOT_START_TIME = time()
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/7112d4e09c593d82e5aee.jpg')).split()
+PICS = (environ.get('PICS', 'https://te.legra.ph/file/b6ac22565d9ee76d92220.jpg')).split()
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/f7f2a532fe4b990044507.mp4")
 NOR_IMG = (environ.get('NOR_IMG', 'https://telegra.ph/file/363a1d552aac5aabc46d7.jpg')).split()
-NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/732a9f89be5a9cd63289b.jpg")
+NEWGRP = environ.get("NEWGRP", "https://te.legra.ph/file/d4448f6d0e8c2e728088c.jpg")
 CLOSE_IMG = (environ.get('CLOSE_IMG', 'https://telegra.ph/file/6e9dd701bac49632cf79a.jpg https://telegra.ph/file/998d2b84e1411ed5189e3.jpg https://telegra.ph/file/c199babd469011d07f139.jpg https://telegra.ph/file/31b6d3d2c70bbe52b5300.jpg https://telegra.ph/file/77744524fbb6305298d45.jpg https://telegra.ph/file/9d79d990674166a2a2364.jpg')).split()
 
 # Admins, Channels & Users
@@ -126,9 +126,9 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '0'))
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "False")), True)
-TUTORIAL = environ.get('TUTORIAL', 'https://telegra.ph/No-tutorial-link-set-05-23')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/assassin_tg/12')
 
-LANGUAGES = ["malayalam", "tamil", "english", "hindi", "telugu", "kannada"]
+LANGUAGES = ["malayalam", "tamil", "english", "hindi", "telugu", "kannada", "Hin", "Mal", "Kan", "Eng"]
 
 # Delete Time
 DELETE_TIME = int(environ.get('DELETE_TIME', 300))

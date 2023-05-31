@@ -23,7 +23,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "6054603899:AAFovBuFTPBM6DHDu6jEK1Y7m7WmW-m
 
 # Log
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5227327021').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001953678819 -1001862900307').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001953678819 -1001862900307 -1001817338930 -1001278732144').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5227327021').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 login_channel = environ.get('LOGIN_CHANNEL', '0')
